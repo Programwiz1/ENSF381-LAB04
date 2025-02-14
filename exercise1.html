@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab4 – Exercise 1</title>
+    </head>
+    <body>
+        <h1>JavaScript Lab</h1>
+        <script>
+        let string1 = "Hello, World!";
+        let string2 = "JavaScript is fun!";
+        console.log(string1.length);
+        console.log(string1+string2);
+        console.log(string2.replace("fun", "awesome"));
+        
+        let name = "Alice";
+        let age = 25;
+        console.log(`My ame is ${name} and I am ${age} years old`);
+
+        let today = new Date()
+        console.log(today)
+        
+        let year = today.getFullYear();
+        console.log(year);
+
+        let month = today.getMonth() + 1;
+        console.log(month);
+
+        let dayOfWeekNumber = today.getDay();
+        console.log(dayOfWeekNumber);
+        
+        let map = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+        let dayofweek = map[dayOfWeekNumber]
+        console.log(`The day of week is ${dayofweek}`)
+        </script>
+
+    </body>
+</html>
